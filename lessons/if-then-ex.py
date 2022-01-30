@@ -3,7 +3,7 @@
 choice: int = int(input("Enter a number: "))
 
 if choice < 25:
-    print("A")
+    print("A") 
 else:
     if choice < 50:
         print("B")

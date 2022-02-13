@@ -1,6 +1,6 @@
-"""One shot wordle"""
+"""One shot wordle!"""
 
-__author__ = "73030291"
+__author__ = "730309291"
 
 secret: str = "python"
 

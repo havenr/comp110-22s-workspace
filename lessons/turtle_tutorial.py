@@ -42,7 +42,7 @@ i: int = 0
 while (i < 23):
     side_length == side_length * 0.97
     bob.forward(side_length)
-    bob.left(122)
+    bob.left(130)
     i = i + 1
 
 done()

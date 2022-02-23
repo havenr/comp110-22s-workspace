@@ -47,7 +47,7 @@ def input_guess(expected_length: int) -> str:
 def main() -> None:
     """The entrypoint of the program and main game loop."""
     number_of_turns: int = 0
-    secret: str = "rhythm"
+    secret: str = "python"
     winner: bool = False
     while not winner and number_of_turns < 6:
         print(f"=== Turn {number_of_turns + 1}/6 ===")

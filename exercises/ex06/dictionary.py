@@ -15,7 +15,7 @@ def invert(x: dict[str, str]) -> dict[str, str]:
     return y
 
 
-def favorite_colors(a: dict[str, str]) -> str:
+def favorite_color(a: dict[str, str]) -> str:
     """Counts and returns most frequently mentioned color."""
     b: dict[str, int] = {}
     for key in a:

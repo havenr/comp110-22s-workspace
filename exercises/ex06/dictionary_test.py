@@ -2,7 +2,7 @@
 
 __author__ = "730309291"
 
-from dictionary import invert, favorite_colors, count
+from dictionary import invert, favorite_color, count
 
 
 def test_invert() -> None:
@@ -14,7 +14,7 @@ def test_invert() -> None:
 def test_favorite_colors() -> None:
     """Tests favorite colors function to see if mentioning most frequently listed color."""
     a: dict[str, str] = {"Marc": "yellow", "Ezri": "blue", "Kris": "blue"}
-    assert favorite_colors(a) == "blue"
+    assert favorite_color(a) == "blue"
 
 
 def test_count() -> None:
